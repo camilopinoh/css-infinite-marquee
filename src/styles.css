@@ -45,4 +45,9 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay: calc(30s / 8 * (8 - var(--n)) * -1);
+    transition: all 0.8s ease-in-out;
+}
+
+.wrapper:hover .item {
+    animation-play-state: paused;
 }
